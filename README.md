@@ -8,27 +8,27 @@ Procmonel is `Procmon` like monitoring system implemented using Microsoft WDK.
 ## Features
 Kernel mode filter registers to following notifications:  
   
-1. Process Notification Routine 
-    a. Create
-    b. Terminate
-2. Thread Notification Routine
-    a. Create
-    b. Terminate
-3. Image Notification Routine 
-    a. Image load inside a process (`.dll`)
-4. Registry Notification Routine
-    a. Create
-    b. Set Value
-    c. Delete Key
-    d. Delete Value
-5. File operations
-    a. Create
-    b. Close
-    c. Cleanup
-    d. Read
-    e. Write
-    f. Set Attributes
-
+1. Process Notification Routine   
+    a. Create  
+    b. Terminate  
+2. Thread Notification Routine  
+    a. Create  
+    b. Terminate  
+3. Image Notification Routine  
+    a. Image load inside a process (`.dll`)  
+4. Registry Notification Routine  
+    a. Create  
+    b. Set Value  
+    c. Delete Key  
+    d. Delete Value  
+5. File operations  
+    a. Create  
+    b. Close  
+    c. Cleanup  
+    d. Read  
+    e. Write  
+    f. Set Attributes  
+  
 ## Built with
 - C
 - WDK (Windows Driver Kit)
